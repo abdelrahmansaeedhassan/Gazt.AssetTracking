@@ -1,0 +1,162 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{F28129C8-45A3-4FC1-99E5-21F3A69837F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{81CD9EB7-E4C0-4491-BE49-6F907F565B63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BEF10C9A-A063-4431-A80F-98BDD955A4A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazt.AssetTracking.Services", "Gazt.AssetTracking.Services\Gazt.AssetTracking.Services.csproj", "{1B782584-4703-4DA6-B945-D44B379363AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazt.AssetTracking.Data", "Gazt.AssetTracking.Data\Gazt.AssetTracking.Data.csproj", "{CAACE210-E9CC-4391-A97E-2BFF0C2ACA59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazt.AssetTracking.Portal", "Gazt.AssetTracking.Portal\Gazt.AssetTracking.Portal.csproj", "{9A20F784-604A-4DAE-AFA0-52C232F28C88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazt.AssetTracking.Core", "Gazt.AssetTracking.Core\Gazt.AssetTracking.Core.csproj", "{F9CE4F94-6394-426C-BDC2-5776D9F730FF}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Gazt.AssetTracking.TemplateEN", "Gazt.AssetTracking.TemplateEN", "{7F118B42-6C25-476A-9615-1713FF3B137E}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58835"
+		Debug.AspNetCompiler.PhysicalPath = "Gazt.AssetTracking.TemplateEN\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58835\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58835"
+		Release.AspNetCompiler.PhysicalPath = "Gazt.AssetTracking.TemplateEN\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58835\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58835"
+		SlnRelativePath = "Gazt.AssetTracking.TemplateEN\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Gazt.AssetTracking.TemplateAR", "Gazt.AssetTracking.TemplateAR", "{015D2981-E2A3-462C-B053-799A5EDC4C82}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58839"
+		Debug.AspNetCompiler.PhysicalPath = "Gazt.AssetTracking.TemplateAR\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58839\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58839"
+		Release.AspNetCompiler.PhysicalPath = "Gazt.AssetTracking.TemplateAR\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58839\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58839"
+		SlnRelativePath = "Gazt.AssetTracking.TemplateAR\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazt.AssetTracking.ViewModels", "Gazt.AssetTracking.ViewModels\Gazt.AssetTracking.ViewModels.csproj", "{B8C6FB4F-2133-46DC-BEAE-2C09B4F438DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B782584-4703-4DA6-B945-D44B379363AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B782584-4703-4DA6-B945-D44B379363AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B782584-4703-4DA6-B945-D44B379363AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B782584-4703-4DA6-B945-D44B379363AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAACE210-E9CC-4391-A97E-2BFF0C2ACA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAACE210-E9CC-4391-A97E-2BFF0C2ACA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAACE210-E9CC-4391-A97E-2BFF0C2ACA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAACE210-E9CC-4391-A97E-2BFF0C2ACA59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A20F784-604A-4DAE-AFA0-52C232F28C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A20F784-604A-4DAE-AFA0-52C232F28C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A20F784-604A-4DAE-AFA0-52C232F28C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A20F784-604A-4DAE-AFA0-52C232F28C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CE4F94-6394-426C-BDC2-5776D9F730FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CE4F94-6394-426C-BDC2-5776D9F730FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CE4F94-6394-426C-BDC2-5776D9F730FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CE4F94-6394-426C-BDC2-5776D9F730FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F118B42-6C25-476A-9615-1713FF3B137E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F118B42-6C25-476A-9615-1713FF3B137E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F118B42-6C25-476A-9615-1713FF3B137E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F118B42-6C25-476A-9615-1713FF3B137E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{015D2981-E2A3-462C-B053-799A5EDC4C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015D2981-E2A3-462C-B053-799A5EDC4C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015D2981-E2A3-462C-B053-799A5EDC4C82}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{015D2981-E2A3-462C-B053-799A5EDC4C82}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B8C6FB4F-2133-46DC-BEAE-2C09B4F438DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C6FB4F-2133-46DC-BEAE-2C09B4F438DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C6FB4F-2133-46DC-BEAE-2C09B4F438DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C6FB4F-2133-46DC-BEAE-2C09B4F438DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B782584-4703-4DA6-B945-D44B379363AC} = {F28129C8-45A3-4FC1-99E5-21F3A69837F9}
+		{CAACE210-E9CC-4391-A97E-2BFF0C2ACA59} = {81CD9EB7-E4C0-4491-BE49-6F907F565B63}
+		{9A20F784-604A-4DAE-AFA0-52C232F28C88} = {BEF10C9A-A063-4431-A80F-98BDD955A4A3}
+		{F9CE4F94-6394-426C-BDC2-5776D9F730FF} = {F28129C8-45A3-4FC1-99E5-21F3A69837F9}
+		{7F118B42-6C25-476A-9615-1713FF3B137E} = {BEF10C9A-A063-4431-A80F-98BDD955A4A3}
+		{015D2981-E2A3-462C-B053-799A5EDC4C82} = {BEF10C9A-A063-4431-A80F-98BDD955A4A3}
+		{B8C6FB4F-2133-46DC-BEAE-2C09B4F438DA} = {F28129C8-45A3-4FC1-99E5-21F3A69837F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C485FB0B-09C0-4DD4-99AC-846EFD85F771}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gicorec.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Gazt.AssetTracking.Core\\Gazt.AssetTracking.Core.csproj
+		SccProjectTopLevelParentUniqueName1 = Gazt.AssetTracking.sln
+		SccProjectName1 = Gazt.AssetTracking.Core
+		SccLocalPath1 = Gazt.AssetTracking.Core
+		SccProjectUniqueName2 = Gazt.AssetTracking.Data\\Gazt.AssetTracking.Data.csproj
+		SccProjectTopLevelParentUniqueName2 = Gazt.AssetTracking.sln
+		SccProjectName2 = Gazt.AssetTracking.Data
+		SccLocalPath2 = Gazt.AssetTracking.Data
+		SccProjectUniqueName3 = Gazt.AssetTracking.Portal\\Gazt.AssetTracking.Portal.csproj
+		SccProjectTopLevelParentUniqueName3 = Gazt.AssetTracking.sln
+		SccProjectName3 = Gazt.AssetTracking.Portal
+		SccLocalPath3 = Gazt.AssetTracking.Portal
+		SccProjectUniqueName4 = Gazt.AssetTracking.Services\\Gazt.AssetTracking.Services.csproj
+		SccProjectTopLevelParentUniqueName4 = Gazt.AssetTracking.sln
+		SccProjectName4 = Gazt.AssetTracking.Services
+		SccLocalPath4 = Gazt.AssetTracking.Services
+		SccWebProject5 = true
+		SccProjectUniqueName5 = Gazt.AssetTracking.TemplateEN
+		SccProjectTopLevelParentUniqueName5 = Gazt.AssetTracking.sln
+		SccProjectName5 = Gazt.AssetTracking.TemplateEN
+		SccLocalPath5 = Gazt.AssetTracking.TemplateEN
+		SccProjectEnlistmentChoice5 = 2
+		SccWebProject6 = true
+		SccProjectUniqueName6 = Gazt.AssetTracking.TemplateAR
+		SccProjectTopLevelParentUniqueName6 = Gazt.AssetTracking.sln
+		SccProjectName6 = Gazt.AssetTracking.TemplateAR
+		SccLocalPath6 = Gazt.AssetTracking.TemplateAR
+		SccProjectEnlistmentChoice6 = 2
+		SccProjectUniqueName7 = Gazt.AssetTracking.ViewModels\\Gazt.AssetTracking.ViewModels.csproj
+		SccProjectTopLevelParentUniqueName7 = Gazt.AssetTracking.sln
+		SccProjectName7 = Gazt.AssetTracking.ViewModels
+		SccLocalPath7 = Gazt.AssetTracking.ViewModels
+	EndGlobalSection
+EndGlobal
